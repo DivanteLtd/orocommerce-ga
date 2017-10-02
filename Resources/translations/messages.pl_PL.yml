@@ -1,0 +1,15 @@
+divante:
+    google_analytics:
+          system_configuration:
+                groups:
+                    google_tracking:
+                        title: 'Divante Google Tracking'
+                    ga_settings:
+                        title: 'Ustawienia Google Analytics oraz Tag Manager'
+                fields:
+                    enabled:
+                        label: 'Wlaczone'
+                        tooltip: 'Wlaczyc/Wylaczyc integracje'
+                    user_id:
+                        label: 'Identyfikator uzytkownika'
+

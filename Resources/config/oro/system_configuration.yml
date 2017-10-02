@@ -1,0 +1,46 @@
+system_configuration:
+    groups:
+        divante_google_tracking:
+            title: divante.google_analytics.system_configuration.groups.google_tracking.title
+        divante_google_analytics_settings:
+            title: divante.google_analytics.system_configuration.groups.ga_settings.title
+    fields:
+        divante_ga.ga_enabled:
+            data_type: boolean
+            type: oro_config_checkbox
+            options:
+                label: divante.google_analytics.system_configuration.fields.ga_enabled.label
+                tooltip: divante.google_analytics.system_configuration.fields.ga_enabled.tooltip
+                required: false
+        divante_ga.ga_user_id:
+            data_type: string
+            type: text
+            options:
+                label: divante.google_analytics.system_configuration.fields.ga_user_id.label
+
+        divante_ga.gtm_enabled:
+            data_type: boolean
+            type: oro_config_checkbox
+            options:
+                label: divante.google_analytics.system_configuration.fields.gtm_enabled.label
+                tooltip: divante.google_analytics.system_configuration.fields.gtm_enabled.tooltip
+                required: false
+        divante_ga.gtm_user_id:
+            data_type: string
+            type: text
+            options:
+                label: divante.google_analytics.system_configuration.fields.gtm_user_id.label
+    tree:
+        system_configuration:
+            platform:
+                children:
+                    general_setup:
+                        children:
+                            divante_google_tracking:
+                                children:
+                                    divante_google_analytics_settings:
+                                        children:
+                                            - divante_ga.ga_enabled
+                                            - divante_ga.ga_user_id
+                                            - divante_ga.gtm_enabled
+                                            - divante_ga.gtm_user_id

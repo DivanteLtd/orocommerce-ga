@@ -1,0 +1,13 @@
+layout:
+    actions:
+        - '@setBlockTheme':
+            themes: 'gtm.html.twig'
+        - '@add':
+            parentId: 'head'
+            id: 'divante_google_tag_manager'
+            blockType: 'block'
+        - '@add':
+            parentId: 'page_header'
+            id: 'divante_google_tag_manager_no_script'
+            blockType: 'block'
+    conditions: true

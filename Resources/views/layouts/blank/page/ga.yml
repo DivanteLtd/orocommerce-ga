@@ -1,0 +1,9 @@
+layout:
+    actions:
+        - '@setBlockTheme':
+            themes: 'ga.html.twig'
+        - '@add':
+            parentId: 'head'
+            id: 'divante_google_analytics'
+            blockType: 'block'
+    conditions: true

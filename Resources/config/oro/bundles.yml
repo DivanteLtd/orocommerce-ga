@@ -1,0 +1,2 @@
+bundles:
+  - { name: Divante\Bundle\GABundle\DivanteGABundle, priority: 1000 }

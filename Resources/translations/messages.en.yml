@@ -1,0 +1,21 @@
+divante:
+    google_analytics:
+          system_configuration:
+                groups:
+                    google_tracking:
+                        title: 'Divante Google Tracking'
+                    ga_settings:
+                        title: 'Google Analytics and Tag Manager Settings'
+                fields:
+                    ga_enabled:
+                        label: 'Google Analytics Enabled'
+                        tooltip: 'Turn on/off Google Analytics integration'
+                    ga_user_id:
+                        label: 'Google Analytics User ID'
+                    gtm_enabled:
+                        label: 'Google Tag Manager Enabled'
+                        tooltip: 'Turn on/off Google Tag Manager integration'
+                    gtm_user_id:
+                        label: 'Google Tag Manager User ID'
+
+

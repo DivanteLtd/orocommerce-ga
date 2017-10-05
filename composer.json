@@ -11,10 +11,10 @@
     }
   ],
   "require": {
-    "oro\/commerce": "1.2.*"
+    "oro/commerce": "2.0 - 4.0"
   },
   "type": "orocommerce-module",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "autoload": {
     "psr-4": {
       "Divante\\Bundle\\GABundle\\": ""
